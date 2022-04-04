@@ -12,8 +12,12 @@ function App() {
           alt='Logo de freecodecamp' />    
        </div>
        <div className='contenedor-principal'>
-         
-       </div>
+        <boton texto= 'Clic'
+          esbotonclick= {true} 
+          manejarClick={} />
+          
+
+      </div>
     </div>
   );
 }
