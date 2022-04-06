@@ -1,13 +1,14 @@
 import React from "react";
+import '../style-sheets/boton.css'
 
 
-function boton({texto, esbotonclick, manejarClick}){
+function Boton({texto, esbotonclick, manejarClick}){
   return (
-    <boton
-    className={esbotonclick ? 'boton-click' : 'boton-reiniciar'}
-    onclick={manejarClick}>
+    <button
+    className={esbotonclick ? 'boton-Clic' : 'boton-Reiniciar'}
+    onClick={manejarClick} >
       {texto}
-    </boton>
+    </button>
   )
 }
- export default boton
+ export default Boton
